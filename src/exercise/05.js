@@ -15,6 +15,7 @@ const MessagesDisplay = React.forwardRef(function MessagesDisplay({
 
   // 💰 you're gonna want this as part of your imperative methods
   function scrollToTop() {
+    console.log('aa')
     containerRef.current.scrollTop = 0
   }
   function scrollToBottom() {
